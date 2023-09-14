@@ -14,21 +14,26 @@ This is a simple project that demonstrates how to set up Traefik as a reverse pr
    ```bash
    git clone https://github.com/safacanmetin/traefik-demo-project.git
    cd traefik-demo-project
-
+   ```
 
 
 Edit your hosts file (optional):
 
 Add the following lines to your hosts file:
 
+   ```bash
   127.0.0.1 frontend.localhost
   127.0.0.1 backend.localhost
+   ```
+
+
 
 Save and close the hosts file.
 
 Start the project:
-
+   ```bash
   docker-compose up -d
+   ```
 
 Open your web browser and visit:
 
