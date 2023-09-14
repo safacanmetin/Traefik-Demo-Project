@@ -45,3 +45,4 @@ Configuration
 The project uses Traefik as a reverse proxy with automatic HTTPS using Let's Encrypt. You can modify the Traefik configuration in the docker-compose.yml file.
 
     
+For more: https://doc.traefik.io/traefik/
